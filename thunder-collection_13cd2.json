@@ -1,0 +1,52 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "13cd2",
+    "collectionId": "bc8b7759-cf1a-451f-bdd5-527e8b63f2f4",
+    "dateExported": "2025-02-17T13:57:18.012Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "5f0e1d91-1265-41bc-86e7-681d6c8366b2",
+            "colId": "bc8b7759-cf1a-451f-bdd5-527e8b63f2f4",
+            "containerId": "",
+            "name": "szerver futása",
+            "url": "localhost:3000",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2025-02-17T13:12:00.049Z",
+            "modified": "2025-02-17T13:12:38.925Z",
+            "headers": []
+        },
+        {
+            "_id": "eb42126f-f2f4-4824-9989-fa37b34a10fd",
+            "colId": "bc8b7759-cf1a-451f-bdd5-527e8b63f2f4",
+            "containerId": "",
+            "name": "versenyzők lista",
+            "url": "localhost:3000/v",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2025-02-17T13:44:50.906Z",
+            "modified": "2025-02-17T13:46:22.663Z",
+            "headers": []
+        },
+        {
+            "_id": "c1db6dd4-8adf-4283-9f45-da4ac93b8f6e",
+            "colId": "bc8b7759-cf1a-451f-bdd5-527e8b63f2f4",
+            "containerId": "",
+            "name": "új versenyző",
+            "url": "localhost:3000/vuj",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2025-02-17T13:46:59.660Z",
+            "modified": "2025-02-17T13:49:35.212Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"ID\": 7,\n    \"versenyzo\": \"Nagy Márton\"\n}\n",
+                "form": []
+            }
+        }
+    ],
+    "ref": "c1F4kXpMR0hFA4OcGi4QppzV3gHVkOJXEl3U6Onl7xlf9awZvE8uFMhsGFyF0FZ8zl6yLWBwdBgaO8ttCGFvRw"
+}
